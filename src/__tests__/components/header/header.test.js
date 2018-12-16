@@ -8,8 +8,8 @@ describe("<Header />", () => {
     expect(app.find("h1").exists()).toBeTruthy();
   });
 
-  // it('renders correctly', () => {
-  //   const header = renderer.create(<Header />).toJSON();
-  //   expect(header).toMatchSnapshot();
-  // });
+  it('renders correctly', () => {
+    const header = renderer.create(<Header />).toJSON();
+    expect(header).toMatchSnapshot();
+  });
 });

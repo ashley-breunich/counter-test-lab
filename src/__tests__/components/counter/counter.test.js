@@ -35,8 +35,8 @@ describe("<Counter />", () => {
     expect(app.find("span").text()).toContain("-2");
   });
 
-  // it('renders correctly', () => {
-  //   const counter = renderer.create(<Counter />).toJSON();
-  //   expect(counter).toMatchSnapshot();
-  // });
+  it('renders correctly', () => {
+    const counter = renderer.create(<Counter />).toJSON();
+    expect(counter).toMatchSnapshot();
+  });
 });
