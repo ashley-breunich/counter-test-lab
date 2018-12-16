@@ -8,8 +8,8 @@ describe("<Footer />", () => {
     expect(app.find("footer").exists()).toBeTruthy();
   });
 
-  // it('renders correctly', () => {
-  //   const footer = renderer.create(<Footer />).toJSON();
-  //   expect(footer).toMatchSnapshot();
-  // });
+  it('renders correctly', () => {
+    const footer = renderer.create(<Footer />).toJSON();
+    expect(footer).toMatchSnapshot();
+  });
 });
