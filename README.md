@@ -10,7 +10,7 @@
 * [github repo](https://github.com/ashley-breunich/counter-test-lab)
 * [travis](https://www.travis-ci.com/ashley-breunich/counter-test-lab)
 * [warmup](https://github.com/ashley-breunich/warmups)
-* [front-end - AWS](http://d1bf8zlgbadn8o.cloudfront.net/)
+* [front-end - AWS](http://counter-test-lab.s3-website-us-west-2.amazonaws.com/)
 
 ### Modules
 
@@ -86,4 +86,4 @@ You can run the tests by typing npm test in the command line.
 3. The tests assert DOM stability via snapshot testing.
 
 #### UML
-Link to an image of the UML for your application and response to events
+[Link to UML](assets/counter-uml.jpg)
