@@ -1,11 +1,11 @@
-import React from "react";
-import renderer from "react-test-renderer";
-import Header from "components/header/header.js";
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Header from 'components/header/header.js';
 
-describe("<Header />", () => {
-  it("is alive at application start", () => {
+describe('<Header />', () => {
+  it('is alive at application start', () => {
     let app = shallow(<Header />);
-    expect(app.find("h1").exists()).toBeTruthy();
+    expect(app.find('h1').exists()).toBeTruthy();
   });
 
   it('renders correctly', () => {
